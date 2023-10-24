@@ -1,0 +1,26 @@
+## Fonctionnement de base
+
+- Réservoir indépendant, maintient de la flamme
+    - Transmission gaz
+    - compression pour gérer la taille de la flamme grâce a un détendeur
+- allumage
+    - Arc électrique
+    - Allumeur piezo
+- Réglage hauteur/volume flamme
+    - Régler la taille de la flamme avec un potentiomètre
+    - Activation
+        - interrupteur / potentiomètre
+        - Impulsion continue —> Libération du gaz + Allumage étincelle (décalage pour moins  de retour de flamme)
+            - Déphasage d’arrivé de courant entre libération du gaz et étincelle
+    - Réglage à la sortie du canon
+- Alimentation
+    - Batterie 5V (Si Arduino car carte carte Arduino a besoin de 5V)
+    - Alimentation basse fréquence continue (GBF) pour test
+    - Piles
+- Sécurité
+    - Bouton arrêt urgence
+    - Interrupteur marche/arrêt
+    - Programme urgence
+        - Capteur température max sinon arrêt courant, flamme, gaz
+        - timeur temps max sinon arrêt courant, flamme, gaz
+    - Faire les test sur du bois, puis adapter la forme a la vrai basse
